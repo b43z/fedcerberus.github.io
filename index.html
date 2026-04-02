@@ -148,40 +148,30 @@
             .btn-text { font-size: 0.95rem; }
         }
     </style>
+<head>
+  <meta charset="UTF-8">
+  <title>Botón Telegram</title>
+  <style>
+    .telegram-btn {
+      background-color: #0088cc;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .telegram-btn:hover {
+      background-color: #006699;
+    }
+  </style>
 </head>
 <body>
-<div class="control-panel">
-            <div class="button-grid">
-                <a href="mailto:baezhv@gmail.com?subject=Contacto%20Federación%20Cancerberos" class="panel-btn email-special">
-                    <div class="btn-icon">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                            <polyline points="22,6 12,13 2,6"></polyline>
-                        </svg>
-                    </div>
-                    <span class="btn-text">E-Mail a la Federación</span>
-                </a>
-            </div>
-            <p class="dynamic-url-text">Sistemas activos en tiempo real</p>
-        </div>
-
-<style>
-    /* Añade esta regla extra para que el botón de email destaque un poco más */
-    .email-special {
-        border-color: rgba(163, 26, 26, 0.4); /* Un toque rojizo para diferenciarlo */
-    }
-    
-    .email-special:hover {
-        border-color: #ff3333 !important;
-        box-shadow: 0 0 20px rgba(255, 51, 51, 0.4) !important;
-    }
-
-    /* Ajuste para que si es el único botón en su fila, se vea bien */
-    @media (min-width: 900px) {
-        .email-special {
-            grid-column: span 1; 
-        }
-    }
+  <a href="https://t.me/Northsea_Sailor" target="_blank" class="telegram-btn">
+    Enviar mensaje por Telegram
+  </a>    
 </style>
     <div class="main-wrapper">
         <h1 class="main-title">Federación Cancerberos</h1>
